@@ -1,0 +1,7 @@
+version: '3.7'
+services:
+  ipc-demo:
+    image: ipc-demo:latest
+    container_name: ipc-demo
+    command: ["25"] # create 25 child processes
+    build: ./

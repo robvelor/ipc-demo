@@ -1,0 +1,3 @@
+#!/bin/sh -fue
+
+docker-compose up
